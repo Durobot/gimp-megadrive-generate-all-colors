@@ -23,9 +23,9 @@ THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
 ### Installation
 
- - Copy **gimp-megadrive-generate-all-colors.py** to your Gimp plugins folder, e.g. ~/.gimp-2.8/plug-ins/
+ - Copy **gimp_megadrive_generate_all_colors.py** to your Gimp plugins folder, e.g. ~/.gimp-2.8/plug-ins/
 
- - (Skip if you're using Windows) Change file permissions by adding executable bit: ``chmod +x gimp-megadrive-generate-all-colors.py``
+ - (Skip if you're using Windows) Change file permissions by adding executable bit: ``chmod +x gimp_megadrive_generate_all_colors.py``
 
  - Restart Gimp
 
@@ -228,7 +228,7 @@ register("megadrive-generate-all-colors",
          "This script generates a new image showing all Sega Genesis/Megadrive colors",
          "Alexei Kireev",
          "Copyright 2016 Alexei Kireev",
-         "2016-09-22",
+         "2016-10-08",
          "Megadrive colors...",
          "",  # No open image is required for us to run
          [
