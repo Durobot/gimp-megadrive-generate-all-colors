@@ -5,7 +5,8 @@ A Python plug-in for Gimp, which generates a new image containing all 512 Sega G
 
 ### Installation
 
- - Copy **gimp_megadrive_generate_all_colors.py** to your Gimp plugins folder, e.g. ~/.gimp-2.8/plug-ins/
+ - Copy **gimp_megadrive_generate_all_colors.py** to your Gimp plugins folder.  To find out
+ its location, run Gimp and go to ``Edit > Preferences > Folders > Plug-ins``
 
  - (Skip if you're using Windows) Change file permissions by adding executable bit: ``chmod +x gimp_megadrive_generate_all_colors.py``
 
